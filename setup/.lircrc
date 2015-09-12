@@ -1,0 +1,33 @@
+begin
+        prog = irexec
+        remote=hama_52451
+        button = VOLUMEUP
+        config = ~/scripts/VolumeUp.sh
+        repeat = 1
+end
+
+begin
+        prog = irexec
+        remote=hama_52451
+        button = VOLUMEDOWN
+        config = ~/scripts/VolumeDown.sh
+        repeat = 1
+end
+
+begin
+        prog = irexec
+        remote=hama_52451
+        button = MUTE
+        config = ~/scripts/VolumeMute.sh
+        repeat = 1
+end
+
+begin
+        prog = irexec
+        remote=hama_52451
+        button = HOMEPAGE 
+        config = ~/scripts/dlnaRestart.sh
+        repeat = 1
+end
+
+
