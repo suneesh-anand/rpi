@@ -1,0 +1,16 @@
+begin
+        prog = irexec
+        remote=devinput
+        button = KEY_ZOOM
+        config = ~/scripts/VolumeUp.sh
+        repeat = 1
+end
+
+begin
+        prog = irexec
+        remote=devinput
+        button = KEY_MEDIA
+        config = ~/scripts/VolumeDown.sh
+        repeat = 1
+end
+
